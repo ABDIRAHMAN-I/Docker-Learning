@@ -150,5 +150,7 @@ The next phase involves deploying this Dockerized application on a cloud platfor
 This project highlights my understanding of Flask, Docker, and containerization concepts. I wanted to keep the application simple to focus on building, running, and deploying the application efficiently.
 
 ### Connect with Me
-GitHub      LinkedIn
+[GitHub](https://github.com/ABDIRAHMAN-I)     
+
+[LinkedIn](https://www.linkedin.com/in/abdirahman-ismail/)
 
