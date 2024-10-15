@@ -84,7 +84,9 @@ With the Flask server running, I opened my browser and navigated to:
 I saw the "Hello, World!" message displayed in large text as expected.
 
 
-![Hello, world picture](Project/flask-docker-project/my first web application.PNG.png)
+![Hello-world-picture](my-first-web-application.PNG.png)
+
+
 
 ## Part 2: Containerizing the Application
 Steps
