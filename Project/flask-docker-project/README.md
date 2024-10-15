@@ -89,16 +89,17 @@ I saw the "Hello, World!" message displayed in large text as expected.
 
 
 ## Part 2: Containerizing the Application
-Steps
-1. **Create a Dockerfile**
-In the hello_flask directory:
+
+Steps I Took
+1. **Created a Dockerfile**
+In the hello_flask directory, I created a Dockerfile:
 
 ```bash
 touch Dockerfile
 ```
 
-2. **Write the Dockerfile**
-Add the following contents:
+2. **Wrote the Dockerfile**
+I added the following content to define how the Docker container should run:
 
 ```docker
 Dockerfile
@@ -110,16 +111,16 @@ EXPOSE 5002
 CMD ["python", "[app.py](http://app.py/)"]
 ```
 
-3. **Build the Docker Image**
-Build the image using the following command:
+3. **Built the Docker Image**
+I built the image using the following command:
 
 ```bash
 bash
 docker build -t hello-flask .
 ```
 
-4. **Run the Docker Container**
-Run the container with:
+4. **Ran the Docker Container**
+I started the container with:
 
 ```bash
 bash
@@ -127,15 +128,15 @@ docker run -d -p 5002:5002 hello-flask
 ```
 
 5. **Check the Container Status**
-Verify the container is running:
+I checked if the container was running successfully:
 
 ```bash
 bash
 docker ps
 ```
 
-6. **Stop the Container**
-Stop the container using its ID:
+6. **Stopped the Container**
+When I was done, I stopped the container using its ID:
 
 ```bash
 bash
@@ -143,12 +144,11 @@ docker stop <container_id>
 ```
 
 ## What’s Next?
-The next phase involves deploying this Dockerized application on a cloud platform for production. Stay tuned for updates!
+The next phase involves deploying this Dockerized application on a cloud platform for production. I'm excited to continue developing this project and sharing updates soon!
 
 ## Conclusion
-This project highlights my understanding of Flask, Docker, and basic containerization concepts. The simplicity of the application ensures the focus remains on building, running, and deploying the application efficiently.
+This project highlights my understanding of Flask, Docker, and containerization concepts. I wanted to keep the application simple to focus on building, running, and deploying the application efficiently.
 
 ### Connect with Me
-GitHub
-LinkedIn
+GitHub      LinkedIn
 
