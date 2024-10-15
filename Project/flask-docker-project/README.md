@@ -1,6 +1,6 @@
 # Flask Docker Project
 
-This project demonstrates how to build and run a simple "Hello, World!" web application using Flask and Python. The application is containerized using Docker for ease of deployment.
+This project showcases how I built and ran a simple "Hello, World!" web application using Flask and Python. I then containerized the application using Docker to make deployment easier. This project demonstrates my skills in web development and containerization.
 
 ## Overview
 
@@ -9,7 +9,7 @@ The project is divided into two main phases:
 1. **Building the Flask Application**
 2. **Containerizing the Application with Docker**
 
-### Technologies Used
+### Technologies I Used
 
 - **Python 3**
 - **Flask**
@@ -18,43 +18,43 @@ The project is divided into two main phases:
 
 ## Part 1: Building the Flask Application
 
-### Steps
+### Steps I took
 
-1. **Install Python**
+1. **Installed Python**
     
-    Make sure Python is installed on your system:
+   I first checked if Python was installed on my system by running:
     
     ```bash
     python3 --version
     
     ```
     
-2. **Install Flask**
+2. **Installed Flask**
     
-    Install Flask using `pip`:
+    After confirming Python was installed, I used pip to install Flask:
     
     ```bash
     pip3 install flask
     
     ```
     
-3. **Set Up Project Directory**
-Create a directory for the project and navigate into it:
+3. **Set Up the Project Directory**
+I created a directory for the project and navigated into it:
     
     ```bash
     mkdir hello_flask
     cd hello_flask
     ```
     
-4. **Create the Application File**
-Create the [app.py](http://app.py/) file:
+4. **Created the Application File**
+I created the app.py file to start writing my Flask application:
     
     ```bash
-    touch [app.py](http://app.py/)
+    touch [app.py]
     ```
     
-5. **Write the Flask Application**
-Open [app.py](http://app.py/) and add the following code:
+5. **Wrote the Flask Application**
+I opened app.py and added the following code:
     
     ```python
     from flask import Flask
@@ -69,17 +69,22 @@ Open [app.py](http://app.py/) and add the following code:
     		app.run(host='0.0.0.0', port=5002)
     
     ```
-    
-6. **Run the Application**
-Run the application locally:
+I adjusted the text to be larger using HTML and inline CSS to make the message stand out.
+
+6. **Ran the Application**
+I ran the application locally using:
     
     ```bash
     python3 [app.py](http://app.py/)
     ```
     
-7. **Access the Application**
-Open your browser and go to:
-[http://localhost:5002](http://localhost:5002/)
+7. **Accessed the Application**
+With the Flask server running, I opened my browser and navigated to:
+[http://localhost:5002]
+I saw the "Hello, World!" message displayed in large text as expected.
+
+
+![Hello, world picture]()
 
 ## Part 2: Containerizing the Application
 Steps
